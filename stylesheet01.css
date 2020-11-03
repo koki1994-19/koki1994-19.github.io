@@ -1,0 +1,298 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color:#333;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.9;
+  text-align: left;
+}
+
+/*header*/
+header{
+  position:relative;
+  max-width:960px;
+  height:270px;
+  margin:0 auto;
+}
+
+nav{
+  position:absolute;
+  bottom:30px;
+  right:0px;
+  width:396.94px;
+}
+
+.nav-list{
+  display:flex;
+}
+
+.nav-list li{
+  flex:auto;
+  margin-left:50px;
+}
+
+.works{
+  width:47.89px;
+}
+
+.blog{
+  width:33.19px;
+}
+
+#social-logo img{
+  width:22px;
+  height:22px;
+}
+
+#social-logo{
+  position:absolute;
+  top:116px;
+  right:10px;
+  width:58px;
+  display: flex;
+}
+
+#social-logo a{
+  display:inline-block;
+}
+
+.insta{
+  margin-right:14px;
+}
+
+.nav-list a{
+  font-family:"Lato", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  letter-spacing:0.1em;
+  padding:12px 0px;
+}
+
+#logo{
+  position:absolute;
+  top:105px;
+  left:0px
+}
+
+#logo img{
+  width:275px;
+  height:35px;
+}
+
+/*main_top*/
+#main{
+  margin-bottom:80px;
+  background-color: #ecebeb;
+  text-align: center;
+  height:420px;
+}
+
+.background img{
+  width:960px;
+  height:420px;
+}
+/*main*/
+/*service*/
+.container{
+  max-width:920px;
+  margin:0 auto;
+}
+
+.service{
+  margin-bottom:130px;
+  text-align:center;
+}
+
+.ttl{
+  margin-bottom:65px;
+  font-size:50px;
+  line-height: 1.0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+}
+
+.item img{
+  width:98px;
+  height:102px;
+  text-align: center;
+  margin-bottom:32px;
+  object-fit: cover;
+}
+
+.item h3{
+  font-size:25px;
+  margin-bottom:16px;
+  text-align: center;
+  line-height:1.0;
+  color:#505050;
+  font-weight:normal;
+}
+
+.a{
+  font-size:14px;
+  margin-bottom:45px;
+  letter-spacing:0.1em;
+  text-align: center;
+  line-height: 1.0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #a5a5a5;
+}
+
+
+.item{
+  flex:auto;
+  max-width:280px;
+  height:auto;
+  margin-right:40px;
+}
+
+.items{
+  display:flex;
+}
+
+.last{
+  margin-right:0;
+}
+
+.txt01{
+  text-align:center;
+}
+
+/*works*/
+.Works{
+  text-align:center;
+  margin-bottom:150px;
+}
+
+.photo-list img{
+  flex:auto;
+  width:278px;
+  height:258.14px;
+  border:1px solid #e0e0e0;
+}
+
+.photo-list{
+  display:flex;
+}
+
+.photo-list li{
+  width:280px;
+  margin-bottom:60px;
+  margin-right:40px;
+}
+
+.it{
+  margin-right:0;
+}
+
+/*blog*/
+.Blog{
+  text-align: center;
+  margin-bottom:50px;
+}
+
+.blog-list{
+  display:flex;
+}
+
+.blog-list img{
+  width:280px;
+  height:260px;
+  margin-bottom:30px;
+}
+
+.blog-list li{
+  width:280px;
+  margin:0 40px 60px 0px;
+  text-align: right;
+}
+
+.blog-list p{
+  display:inline-block;
+  text-align: left;
+  margin-bottom:20px;
+}
+
+.more{
+  padding:8px 12px;
+  background-color:#eee;
+  color:#333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+/*toTop*/
+.toTop{
+  text-align: center;
+}
+
+.toTop img{
+  width:22px;
+  height:14px;
+  vertical-align: bottom;
+}
+
+.toTop a{
+  display:block;
+  width:64px;
+  height:42px;
+  margin:0 auto 20px auto;
+  padding:8px 20px;
+  cursor:pointer;
+}
+
+/*footer*/
+footer{
+  max-width:960px;
+  padding-bottom:20px;
+  height:106px;
+  margin:0 auto;
+  position: relative;
+}
+
+#footer-list{
+  position:absolute;
+  left:0;
+  float:left;
+  width:60%;
+
+}
+
+#footer-list li{
+  display:inline;
+  margin-right:40px;
+  font-family:"Lato", sans-serif;
+  font-size:14px;
+  font-weight:400;
+  letter-spacing:0.1em;
+  line-height:75px;
+}
+
+#footer-right{
+  float:right;
+  width:40%;
+  line-height:75px;
+  font-size:8px;
+  text-align: right;
+}
